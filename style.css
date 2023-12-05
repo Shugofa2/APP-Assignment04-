@@ -1,0 +1,112 @@
+/* Write CSS here */
+body{
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAA1BMVEX///+nxBvIAAAAJUlEQVR4nO3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAAAZChgABiyUD6gAAAABJRU5ErkJggg==);
+}
+form{
+    background-color:white;
+    color:black;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+nav {
+    background-color:rgb(255, 255, 255);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:flex;
+    justify-content: right;
+    width: 100%;
+    position: fixed;
+    margin-top: 0;
+    box-shadow: 0px 2px 5px #ccc;
+    z-index: 1;
+    top: 0;
+}
+nav a {
+    color: #008080;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    width:80px;
+    padding-right: 10px;
+    margin-top: 0;
+}
+a:hover{
+    color:black;
+    background-color:#ded4d4 ;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 0;
+}
+img{
+    width:150px;
+    padding-left:20px;
+    padding-top:20px;
+
+}
+/* by defult, <label> are inline elements, that is why label is right next to the input tags, we can change this!*/
+label{
+    display:block;
+    color: black;
+}
+.inline-label{
+            display: inline;
+}
+div{
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"] {
+        display: auto;
+        display:inline;
+        width:100%;
+        height: 30px;
+        border: 2px solid #006D67;
+        box-shadow:0 15px 25px rgba(10, 40, 100, 0.6 );
+
+}
+.container{
+        background-color:rgb(255, 255, 255)
+        opacity: 0.5;
+        border: 6px double #006D67;
+        padding: 20px;
+        margin: 30px;
+        width: 60%;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right:  auto;
+}
+button{
+        background-color: #15A3C7;
+        padding:8px;
+        width:90px;
+        border-radius: 10px;
+        margin:15px;
+        box-shadow:0 15px 25px rgba(0, 4, 255, 0.6 );
+        box-sizing:border-box;
+}
+#select
+ {
+    cololr:red;
+    display:block;
+    margin:0;
+    padding:10px;
+}
+textarea{
+        width:100%;
+        height:50px;
+        border:3px solid #006D67;
+        border-radius:5px;
+        box-shadow:0 15px 25px rgba(0, 4, 255, 0.6 );
+}
+.my{
+    text-align:center;
+}
+
+
+
+     
